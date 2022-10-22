@@ -1,0 +1,17 @@
+.container{
+    background-color: red;
+    height: 700px;
+    width: 700px;
+    display: grid;
+    grid-template-rows: 133px 133px 133px;
+    grid-template-columns: 133px 133px 133px;
+    align-content: space-between;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.item{
+  background-color: aqua;
+  height: 220px;
+  width: 220px;
+} 

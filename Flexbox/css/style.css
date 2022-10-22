@@ -1,0 +1,16 @@
+.column-flex{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.row-flex{
+  display: flex;
+}
+
+.child{
+  display: flex;
+  border: 1px solid silver;
+  justify-content: center;
+  width: 100%;
+}
